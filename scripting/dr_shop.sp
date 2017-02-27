@@ -18,8 +18,8 @@ public Plugin:myinfo =
 public OnPluginStart()
 {
 
-	RegConsoleCmd("sm_sklep", SHOPMENU);
-	RegConsoleCmd("sm_sklepdr", SHOPMENU);
+	RegConsoleCmd("sm_drshop", SHOPMENU);
+	//RegConsoleCmd("sm_sklepdr", SHOPMENU);
 }
 
 
